@@ -2,6 +2,69 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+## 🚀 Overview- BRGDemo
+# Suricata Rule Mapping to MITRE ATT&CK
+
+This script provides an end-to-end workflow for mapping Suricata rule data to specific MITRE ATT&CK techniques using OpenAI GPT and a retry mechanism. It includes:
+
+- **LLM Prompting**: Generates a structured prompt for each rule.
+- **Validation & Retry**: Ensures each returned technique ID matches a provided MITRE technique list, otherwise re-queries the LLM.
+- **JSON Input/Output**: Loads rules/techniques from JSON files and saves mapped output to JSON for easy integration.
+- **Batch Processing**: Demonstrates how to process a subset of rules (customizable).
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)  
+2. [Key Features](#key-features)  
+3. [Dependencies & Setup](#dependencies--setup)  
+4. [Script Flow](#script-flow)  
+   - [1) Loading Extracted Rules](#1-loading-extracted-rules)  
+   - [2) Loading MITRE ATT&CK Techniques](#2-loading-mitre-attck-techniques)  
+   - [3) Mapping Rules to MITRE ATT&CK](#3-mapping-rules-to-mitre-attck)  
+5. [Usage Instructions](#usage-instructions)  
+6. [Customization](#customization)  
+7. [Example Output](#example-output)  
+8. [License](#license)
+
+---
+
+## Overview
+
+- **Purpose**: Automate the classification of Suricata rule messages into MITRE ATT&CK techniques.  
+- **Core Approach**:  
+  1. Prompt an LLM (OpenAI GPT) with rule info.  
+  2. Enforce a valid MITRE technique.  
+  3. Retry if the initial technique is invalid.
+
+---
+
+## Key Features
+
+1. **OpenAI GPT Integration**  
+   - Uses ChatGPT-like completions with a structured prompt.  
+   - Custom system/user messages for cybersecurity context.
+
+2. **Validation & Retry**  
+   - Ensures the returned `mitre_technique_id` matches a known list.  
+   - If invalid, re-queries with a stricter prompt.
+
+3. **JSON-Based I/O**  
+   - Loads Suricata rules from a JSON file.  
+   - Saves final mappings in a clean JSON format.
+
+4. **Logging & Timing**  
+   - Tracks each rule’s ID, prints LLM responses, and measures API call durations.
+
+5. **Partial Processing**  
+   - By default, processes a limited number of rules (e.g., 10).  
+   - Easily modified to handle larger batches.
+
+---
+
+
+
 
 ## 🚀 Overview- BRGDemo2
 # Suricata Rule Parsing & MITRE Mapping
