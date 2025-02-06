@@ -60,7 +60,6 @@ Before running this notebook, ensure you have:
 
 In the first cells of the notebook, the following packages are installed:
 
-```bash
 !pip install pinecone-client langchain_community
 
 
