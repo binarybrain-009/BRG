@@ -2,6 +2,84 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+## 🚀 Overview- data folder
+# `/data` Folder Overview
+
+This folder contains various data files used for **Suricata** rule analysis, **MITRE ATT&CK** mapping, and documentation. Below is a high-level summary of each file and subfolder:
+
+---
+
+## Top-Level Files
+
+### `testData_all.json`
+- A JSON dataset containing Suricata rules or rule mappings.
+
+### `testData.rules`
+- A Suricata `.rules` file containing detection signatures for network intrusion.
+
+### `techniques.json`
+- A JSON listing of MITRE ATT&CK techniques 
+- Used by scripts to validate or map IDS rules to specific technique IDs.
+
+### `MITRE_ATTACK_TECHNIQUES.csv`
+- A CSV variant of MITRE ATT&CK techniques data for reference or analysis in spreadsheet tools.
+
+### `MITRE_ATTACK_TECHNIQUES.json`
+- A JSON counterpart of the MITRE ATT&CK techniques, often used programmatically.
+
+### `suricata_extracted_rules_parsed.numbers`
+- A macOS Numbers spreadsheet containing parsed Suricata rule data (similar to CSV but in Apple’s Numbers format).
+
+### `testDataMapped.json`
+- A JSON file representing Suricata rules mapped to MITRE ATT&CK techniques.
+
+### `testDataMapped.csv`
+- A CSV version of the above mapped results (for easier viewing or sharing).
+
+### `extracted_rules.json`
+- A JSON dataset with Suricata rules extracted from one or more sources (processed result of `.rules` files).
+
+### `mapped_rules_to_mitre.json`
+- A JSON file containing IDS rule data alongside mapped MITRE technique information(given by jonathan i think).
+
+### `testDataMapped_with_confidence.json` / `testDataMapped_with_confidence.csv`
+- JSON and CSV outputs that not only map rules to ATT&CK techniques but also include a "confidence" field from an LLM or another scoring mechanism.
+
+### `test_suricata_rules.json`
+- Another test JSON file with Suricata rules,  used for experimentation or demonstration scripts.
+
+### `suricata_extracted_rules_random_sampled.csv`
+- A randomly sampled subset of Suricata rules (from a larger dataset) for testing, debugging, or proof-of-concept analysis around 512 rules.
+
+### `emerging.rules.tar.gz`
+- A compressed archive of Suricata rules from the **Emerging Threats** feed. May be used for bulk analysis or rule expansion.
+
+---
+
+## Documentation Subfolder
+
+### `/data/documentation/`
+
+- **`GambitASM.docx`**  
+  A Word document containing in-depth details of my work.
+
+- **`SuricataLLMMappings.pptx`**  
+  A PowerPoint slide deck detailing how Suricata rules are mapped to MITRE ATT&CK using LLMs (e.g., GPT).
+
+- **`Rescind_24Jan.pptx`**  
+  Another PowerPoint containing threat-hunting findings, updates, or project status reports amd methodology diagram.
+
+---
+
+## Summary
+
+In essence, the `/data` folder hosts:
+
+1. **Suricata rules** (both raw `.rules` files and processed `.json`/`.csv` files).
+2. **MITRE ATT&CK references** (JSON, CSV) for technique mapping.
+3. **Intermediate & Final Mappings** (various `.json` and `.csv` outputs) showing which rules map to which MITRE techniques.
+4. **Documentation** in Office formats (Word, PowerPoint) for project context or presentations.
+
 ## 🚀 Overview- BRGDemo
 # Suricata Rule Mapping to MITRE ATT&CK
 
