@@ -2,6 +2,72 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+## 🚀 Overview-Pinecone
+# Pinecone Vector Database Integration
+
+This repository/notebook (`pincone.ipynb`) demonstrates how to set up and use Pinecone as a vector database to store, index, and retrieve text documents via embeddings. This setup is especially useful for powering advanced search or chatbots using semantic search capabilities.
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Environment Variables](#environment-variables)
+5. [Usage](#usage)
+   - [Initializing `customVectorDB`](#initializing-customvectordb)
+   - [Storing Data](#storing-data)
+   - [Retrieving Data](#retrieving-data)
+   - [Deleting the Index](#deleting-the-index)
+6. [Experience Manager](#experience-manager)
+7. [Example Workflow](#example-workflow)
+8. [Notes & Considerations](#notes--considerations)
+
+---
+
+## Overview
+
+This notebook uses the following main components to create and manage a Pinecone-backed vector database:
+
+- **[Pinecone](https://www.pinecone.io/)**: A fully managed, serverless vector database.
+- **[LangChain Community Fork](https://github.com/hwchase17/langchain)**: A suite of tools for building AI applications, including:
+  - Document loaders
+  - Embedding models
+  - Vector store integrations
+- **OpenAI's text embeddings**: Specifically `text-embedding-ada-002` (dimension=1536), used for generating vector representations of text.
+
+### `customVectorDB`
+A custom class that handles:
+- Pinecone initialization.
+- Creation and management of the Pinecone index.
+- Storing text/files and performing similarity searches.
+
+### `ExperienceManager`
+A higher-level wrapper that uses `customVectorDB` to store and retrieve documents (referred to as "experiences").
+
+---
+
+## Prerequisites
+
+Before running this notebook, ensure you have:
+
+1. **Python 3.7+**
+2. **A Pinecone account** (with an API key).
+3. **OpenAI API key** (for generating text embeddings).
+
+---
+
+## Installation
+
+In the first cells of the notebook, the following packages are installed:
+
+```bash
+!pip install pinecone-client langchain_community
+
+
+
+
+
+
 ## 🚀 Overview-BRGDemo3-Final
 This repository/notebook provides an end-to-end pipeline for mapping **Suricata IDS rules** to **MITRE ATT&CK techniques** using:
 
