@@ -471,3 +471,63 @@ A: Adjust BATCH_SIZE, SAVE_INTERVAL, and reduce the number of rules processed at
 Q: Can I exclude Pinecone?
 A: Yes. If you don’t want the embedding fallback, remove the Pinecone logic and rely solely on the LLM.
 
+2. Challenges and Solutions
+
+Challenge 1: Handling Large Datasets Efficiently
+
+Problem: We needed to process over 5,000 Suricata rules, which posed performance and memory management challenges.
+
+Solution: Implemented batch processing with a BATCH_SIZE of 2,000 rules. Incorporated periodic saving of processed data every 1,000 rules to avoid data loss during crashes and allow resumption.
+
+Challenge 2: LLM Response Inconsistencies
+
+Problem: The LLM occasionally returned incomplete or invalid JSON responses.
+
+Solution: Added robust JSON parsing with error handling. Introduced a retry mechanism where invalid responses triggered a re-query to the LLM, with a maximum of two attempts before fallback mechanisms were used.
+
+Challenge 3: Invalid MITRE Techniques from LLM
+
+Problem: The LLM sometimes suggested MITRE techniques not present in the techniques.json file.
+
+Solution:
+
+Step 1: After detecting an invalid technique, we re-queried the LLM with explicit instructions to avoid the previous incorrect suggestion.
+
+Step 2: Implemented a secondary LLM attempt with a curated list of valid MITRE techniques included in the prompt to guide its response.
+
+Challenge 4: Token Limit Issues When Passing Techniques
+
+Problem: The techniques.json file was too large to be included in a single LLM prompt due to token limits.
+
+Solution: Split techniques.json into manageable chunks and iteratively passed these to the LLM in the second attempt. This reduced token usage while maintaining accuracy.
+
+Challenge 5: Fallback Mechanism Using Pinecone
+
+Problem: When the LLM failed twice to provide a valid technique, we needed an alternative validation mechanism.
+
+Solution: Integrated Pinecone as a fallback. If the LLM failed after two attempts, we queried Pinecone to find the nearest embedding match for the provided technique description.
+
+Challenge 6: Progress Tracking and Monitoring
+
+Problem: The long-running script lacked clear progress tracking, making it difficult to monitor.
+
+Solution: Added periodic logging to display progress after every 50 rules. This provided real-time feedback on the processing status.
+
+Challenge 7: Resumable Processing
+
+Problem: Restarting the script after interruptions led to duplicate processing.
+
+Solution: Implemented a mechanism to track processed rules using output files. Added functionality to resume processing from the last completed rule.
+
+Challenge 8: Maintaining Context for LLM Correction
+
+Problem: LLM corrections didn’t always consider the previous invalid suggestion, leading to repetitive mistakes.
+
+Solution: Cached the invalid techniques and explicitly included them in correction prompts. This helped the LLM learn from prior mistakes within the session context.
+
+4. Future Improvements
+
+Dynamic Token Management: Automate the splitting of techniques.json based on real-time token usage.
+
+Parallel Processing: Optimize performance further by parallelizing rule processing.
+
