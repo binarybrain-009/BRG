@@ -2,7 +2,7 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
-## 🚀 Overview
+## 🚀 Overview-BRGDemo3-Final
 This repository/notebook provides an end-to-end pipeline for mapping **Suricata IDS rules** to **MITRE ATT&CK techniques** using:
 
 - **OpenAI LLMs** (GPT-4 or GPT-3.5)
