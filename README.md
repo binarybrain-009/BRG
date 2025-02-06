@@ -2,6 +2,42 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+# 🚀 Overview: SageMaker Deployment Proof of Concept
+
+This repository demonstrates a simple proof of concept (POC) for:
+1. **Creating an endpoint locally** for a lightweight model (e.g., DistilBERT).
+2. **Deploying the model as an endpoint on AWS SageMaker**, then making inferences against that endpoint.
+
+## Key Points
+
+- **DistilBERT** was used on an `ml.m5.large` instance (CPU with ~8 GB RAM) to run inference due to its relatively small footprint.
+- **Important Limitation**: **`ml.m5.large`** **cannot** run larger models such as DeepSeek/Qwen, because they require significantly more RAM and/or GPU resources. See details below.
+
+### Why `ml.m5.large` Is Insufficient for DeepSeek/Qwen
+
+- **DeepSeek-R1-Distill-Qwen-1.5B** requires **at least 16GB** of VRAM → Suggests using `ml.g5.2xlarge` or higher.
+- **DeepSeek-R1-Distill-Qwen-32B** needs **96GB** of VRAM → Suggests using `ml.g5.12xlarge`.
+- **DeepSeek-R1 (70B)** demands **320GB+** VRAM → Suggests using `ml.p4d.24xlarge` or similarly large GPU instances.
+
+Hence, to run these large-scale models effectively, consider upgrading to a GPU-backed instance with sufficient VRAM.
+
+---
+
+## Project Structure
+
+1. **Local Endpoint**:  
+   - A Python script or notebook that launches a lightweight inference server (e.g., DistilBERT) locally.
+   - Demonstrates how to interact with the model endpoint using simple HTTP requests.
+
+2. **SageMaker Deployment**:  
+   - A notebook or script that packages your model (DistilBERT in this POC) into a SageMaker-compatible format.
+   - Shows how to create and configure an **endpoint** in SageMaker, then queries it for inference.
+
+3. **Inference Examples**:  
+   - A set of test inputs to verify that the deployed endpoint (both locally and on SageMaker) returns expected results.
+
+---
+
 ## 🚀 Overview- data folder
 # `/data` Folder Overview
 
