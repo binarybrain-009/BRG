@@ -2,6 +2,57 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+
+## 🚀 Overview- BRGDemo2
+# Suricata Rule Parsing & MITRE Mapping
+
+This script provides a two-stage approach for working with Suricata rules:
+
+1. **Parsing Rules**: Extracting rule information (such as `msg`, `classtype`, and `sid`) from a `.rules` file and saving it to JSON.
+2. **Mapping to MITRE ATT&CK**: Taking an existing CSV of Suricata rules (with relevant fields) and using the OpenAI API to map each rule to three MITRE ATT&CK techniques (with confidence scores).
+
+## Table of Contents
+
+1. [Overview](#overview)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Usage](#usage)
+   - [Step 1: Parsing Suricata Rules File](#step-1-parsing-suricata-rules-file)
+   - [Step 2: Mapping CSV Data to MITRE Techniques](#step-2-mapping-csv-data-to-mitre-techniques)
+5. [Key Components](#key-components)
+   - [Regex Patterns](#regex-patterns)
+   - [LLM Queries & Caching](#llm-queries--caching)
+6. [Command-Line Execution](#command-line-execution)
+7. [Customization](#customization)
+8. [License](#license)
+
+---
+
+## Overview
+
+This script (`parse_rules_file` + `process_csv_and_map_to_mitre`) handles two major functionalities:
+
+1. **`parse_rules_file(...)`**  
+   Reads a Suricata `.rules` file, extracts important fields (`msg`, `classtype`, `sid`), and outputs JSON.
+
+2. **`process_csv_and_map_to_mitre(...)`**  
+   Reads Suricata rule data from a CSV (where each row includes fields like `file_name`, `action`, `protocol`, etc.), then uses the OpenAI API to map each rule to MITRE ATT&CK techniques with confidence scores. The final mappings are saved to a JSON output file.
+
+---
+
+## Prerequisites
+
+1. **Python 3.7+**  
+2. **OpenAI API Key**  
+   - Stored in an environment variable named `OPENAI_API_KEY`.
+3. **Suricata `.rules` file(s)** or existing CSV output from prior steps.
+
+---
+
+
+
+
+
 ## 🚀 Overview- Suricata Rule Enhancer
 
 This Python script (`suricata_rule_enhancer.py`) streamlines the extraction and sampling of Suricata rules from `.rules` files, allowing you to parse them into a structured format (CSV) and optionally take random samples for further analysis or curation.
@@ -39,17 +90,6 @@ This Python script (`suricata_rule_enhancer.py`) streamlines the extraction and 
 2. A **Suricata rules folder** containing `.rules` files to parse.
 
 ---
-
-## Installation
-
-1. **Clone this repository or copy the script** (`suricata_rule_enhancer.py`) into your project directory.
-2. (Optional) Create and activate a Python virtual environment:
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use venv\Scripts\activate
-
-
-
-
 
 
 ## 🚀 Overview-Pinecone
@@ -156,7 +196,6 @@ It’s designed to run in **Google Colab**, but can be adapted for other Python 
 
 ## 🗂️ Folder Structure
 
-```plaintext
 ├── suricata_extracted_rules_parsed.csv    # Input CSV with Suricata IDS rules
 ├── techniques.json                         # MITRE ATT&CK techniques reference
 ├── output_batches/                         # Folder where mapped results are saved
@@ -276,11 +315,3 @@ A: Adjust BATCH_SIZE, SAVE_INTERVAL, and potentially reduce the number of rules 
 
 Q: Can I exclude Pinecone?
 A: Yes. If you don’t want the embedding fallback, remove the Pinecone code and rely solely on LLM.
-
-🤝 Contributing
-Fork and Clone this repository.
-Create a Feature Branch for any changes.
-Pull Request for merges to main.
-🏁 License
-This project is licensed under the MIT License. See LICENSE for details.
-
