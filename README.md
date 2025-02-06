@@ -157,45 +157,67 @@ In the first cells of the notebook, the following packages are installed:
 
 
 
-## 🚀 Overview-BRGDemo3-Final
-This repository/notebook provides an end-to-end pipeline for mapping **Suricata IDS rules** to **MITRE ATT&CK techniques** using:
+# 🚀 Overview-BRGDemo3-Final
+
+This repository/notebook provides an **end-to-end pipeline** for mapping **Suricata IDS rules** to **MITRE ATT&CK techniques** using:
 
 - **OpenAI LLMs** (GPT-4 or GPT-3.5)
 - **Pinecone** (for embedding-based fallback)
-- **Hierarchical agent** approach for retrying invalid technique mappings
+- A **hierarchical agent** approach for retrying invalid technique mappings
 - **Batch processing** and partial saves to handle large rule sets efficiently
 
-It’s designed to run in **Google Colab**, but can be adapted for other Python environments.
+It’s designed to run primarily in **Google Colab**, but it can be adapted for other Python environments.
 
 ---
 
-## 📊 Key Features
+## Table of Contents
 
-1. **Suricata IDS Rule Parsing:**
-   - Reads a CSV file containing Suricata IDS rules (including `action`, `protocol`, `options`, etc.).
-   - Extracts critical fields like `msg` and `classtype`.
-
-2. **OpenAI GPT Integration:**
-   - Sends each rule to GPT with a structured prompt to identify the correct MITRE ATT&CK technique.
-
-3. **Hierarchical Agents & Retry Logic:**
-   - **First Attempt:** The LLM tries to guess the best technique.
-   - **Second Attempt (Fallback):** If invalid, we re-query the LLM with additional context (e.g., a technique list or correction note).
-   - **Final Fallback (Embeddings):** If the LLM fails repeatedly, we rely on **Pinecone** for an embedding-based nearest match.
-
-4. **Pinecone Embeddings:**
-   - We store or retrieve MITRE technique embeddings (e.g., technique descriptions) in Pinecone.
-   - If the LLM suggestions are invalid, Pinecone helps find a semantically similar technique.
-
-5. **Faster Processing Techniques:**
-   - **Batching**: Saves results in batches (e.g., every 2000 rules) to reduce I/O overhead.
-   - **Partial Saves**: Checkpoints progress every 1000 rules (or a custom interval) to avoid data loss.
-   - **Skipping Processed Rules**: Reads output JSON to skip rules already mapped.
+1. [Key Features](#key-features)  
+2. [Folder Structure](#folder-structure)  
+3. [Pipeline Workflow](#pipeline-workflow)  
+   - [Load and Chunk Techniques (Optional)](#load-and-chunk-techniques-optional)  
+   - [Hierarchical Agent Workflow](#hierarchical-agent-workflow)  
+   - [CSV Reading & Rule Skipping](#csv-reading--rule-skipping)  
+   - [LLM Query & Validation](#llm-query--validation)  
+   - [Fallback Using Pinecone](#fallback-using-pinecone)  
+   - [Batch Processing & Partial Saves](#batch-processing--partial-saves)  
+4. [Example LLM Output](#example-llm-output)  
+5. [Setup & Usage](#setup--usage)  
+6. [Retry Mechanisms](#retry-mechanisms)  
+7. [🌐 Pinecone Embedding DB](#-pinecone-embedding-db)  
+8. [⚡ Faster Processing Techniques](#-faster-processing-techniques)  
+9. [📌 Frequently Asked Questions](#-frequently-asked-questions)  
 
 ---
 
-## 🗂️ Folder Structure
+## Key Features
 
+1. **Suricata IDS Rule Parsing**  
+   - Reads from a CSV file containing Suricata IDS rules (fields like `action`, `protocol`, `options`, etc.).  
+   - Extracts critical fields such as `msg` and `classtype`.
+
+2. **OpenAI GPT Integration**  
+   - Sends each rule to GPT (4 or 3.5) with a structured prompt to identify the correct MITRE ATT&CK technique.
+
+3. **Hierarchical Agents & Retry Logic**  
+   1. **First Attempt**: The LLM attempts to find the best technique.  
+   2. **Second Attempt**: If invalid, re-queries the LLM with additional context (e.g., technique list or a correction note).  
+   3. **Final Fallback (Pinecone)**: If LLM fails repeatedly, an embedding-based nearest match is used.
+
+4. **Pinecone Embeddings**  
+   - Stores or retrieves MITRE technique embeddings (e.g., technique descriptions) in Pinecone.  
+   - If the LLM suggestions are invalid, Pinecone helps find the closest technique via similarity search.
+
+5. **Faster Processing**  
+   - **Batching**: Saves results in batches (e.g., every 2000 rules) to reduce I/O overhead.  
+   - **Partial Saves**: Checkpoints progress every 1000 rules (configurable) to prevent data loss.  
+   - **Skipping Processed Rules**: Reads the existing JSON to skip rules that have already been mapped.
+
+---
+
+## Folder Structure
+
+```plaintext
 ├── suricata_extracted_rules_parsed.csv    # Input CSV with Suricata IDS rules
 ├── techniques.json                         # MITRE ATT&CK techniques reference
 ├── output_batches/                         # Folder where mapped results are saved
@@ -205,38 +227,33 @@ It’s designed to run in **Google Colab**, but can be adapted for other Python 
 │   └── ...
 ├── notebook.ipynb                         # Colab notebook (main pipeline)
 └── README.md                              # This README file
-🔍 How the Pipeline Works
-Load and Chunk Techniques (Optional):
+Pipeline Workflow
+Below is a high-level overview of the pipeline steps:
 
-The script reads techniques.json containing all MITRE techniques.
-In older versions, it split them into chunks (e.g., 50 techniques per chunk) for LLM queries.
-If you’re using a single large list, it includes all 240 techniques in one prompt.
-Hierarchical Agent Workflow:
-
-Agent 1 (LLM attempt #1): Takes a Suricata rule, tries to map it to a technique.
-Agent 2 (LLM attempt #2): If Agent 1’s suggestion is invalid (not in techniques.json), it re-queries the LLM with a correction note or a full technique list.
-Agent 3 (Pinecone): If both LLM attempts fail, we use an embedding-based similarity search to find the closest MITRE technique.
-CSV Reading & Rule Skipping:
-
-Reads the CSV via DictReader.
-Skips any rule whose line number is below START_FROM_RULE.
-Also checks output files in output_batches/ to skip rules already processed in previous runs.
-LLM Query & Validation:
-
-The code constructs a prompt detailing the Suricata IDS rule.
-Sends it to the LLM (gpt-4 or gpt-3.5-turbo) with a temperature of 0.0 for deterministic responses.
-Parses the JSON response to extract mitre_technique_id, mitre_technique_name, and confidence_score.
-Fallback Using Pinecone:
-
-If the LLM fails or the technique is invalid, Pinecone embeddings are used.
-The script queries Pinecone for the best match given the technique name.
+Load and Chunk Techniques (Optional)
+The script reads techniques.json containing MITRE technique data.
+In older versions, it split them into chunks (e.g., 50 techniques per chunk) for smaller LLM prompts.
+Alternatively, you can load all 240+ techniques at once (a single large list).
+Hierarchical Agent Workflow
+Agent 1 (LLM attempt #1): Takes a Suricata rule, attempts to map it to a valid MITRE technique.
+Agent 2 (LLM attempt #2): If Agent 1’s suggestion is invalid (not in techniques.json), re-queries the LLM with additional instructions (like a correction note or full technique list).
+Agent 3 (Pinecone): If both attempts fail, uses an embedding-based similarity search in Pinecone to pick the best match.
+CSV Reading & Rule Skipping
+The code reads the CSV (e.g., suricata_extracted_rules_parsed.csv) with a Python DictReader.
+Skips rules below a specified line number START_FROM_RULE.
+Also checks output_batches/ to skip rules that have already been processed in prior runs.
+LLM Query & Validation
+The script constructs a prompt describing the Suricata IDS rule.
+Sends it to the LLM (gpt-4 or gpt-3.5-turbo) with temperature=0.0 for deterministic output.
+Parses the JSON response to extract fields like mitre_technique_id, mitre_technique_name, and confidence_score.
+Fallback Using Pinecone
+If the LLM fails or the suggested technique is invalid, it queries Pinecone’s index for the closest match.
 This ensures coverage if the LLM incorrectly responds with a non-existent technique.
-Batch Processing and Partial Saves:
-
-BATCH_SIZE: The number of rules processed before saving a final output JSON (e.g., 2000 rules per batch).
-SAVE_INTERVAL: The number of processed rules before saving a partial checkpoint (e.g., 1000 rules).
-Each batch or partial save is written to JSON, optionally downloaded within Colab.
-💽 Example LLM Output
+Batch Processing & Partial Saves
+BATCH_SIZE: The number of rules to process before a final output JSON is saved (e.g., 2,000).
+SAVE_INTERVAL: The number of rules before a partial checkpoint save (e.g., 1,000).
+Each batch or partial save is written to JSON and optionally downloaded (in Colab).
+Example LLM Output
 json
 Copy
 Edit
@@ -256,62 +273,60 @@ Edit
   "mitre_technique_name": "Command and Scripting Interpreter",
   "confidence_score": "0.90"
 }
-📝 Setup & Usage
-Open the Notebook in Colab:
-notebook.ipynb
-Upload Files:
-suricata_extracted_rules_parsed.csv (or your own CSV)
-techniques.json
-Install/Import Dependencies:
+Setup & Usage
+Open the Notebook in Colab
+
+See notebook.ipynb.
+Upload Your Files
+
+suricata_extracted_rules_parsed.csv (or your own CSV).
+techniques.json (MITRE ATT&CK techniques).
+Install/Import Dependencies
+
 openai
-pinecone (for embeddings)
-Configure Keys:
-Set OPENAI_API_KEY as an environment variable (or pass it in code).
-Configure Pinecone credentials if needed.
-Run the Notebook:
-The pipeline will process the CSV rules, save batch results, and fallback to Pinecone if LLM fails.
-🔄 Retry Mechanisms
-Invalid Technique Handling:
+pinecone
+Configure API Keys
 
-If the technique is not found in techniques.json, the code triggers a second LLM attempt (with a hint or a full technique list).
-If it fails again, Pinecone is queried for a nearest match.
-Hierarchical Approach:
+Set OPENAI_API_KEY as an environment variable (or inline in the code).
+Configure Pinecone credentials if using the fallback embeddings approach.
+Run the Notebook
 
-LLM → 2. LLM with Correction → 3. Pinecone.
-Why?
+The pipeline will process the CSV rules, save batch results, and fallback to Pinecone for technique matching as needed.
+Retry Mechanisms
+Invalid Technique Handling
+If the technique from the LLM is not found in techniques.json, the script triggers a second LLM attempt with additional context.
+Failing that, Pinecone is queried for a nearest match.
+Hierarchical Approach
+LLM (initial)
+LLM (with correction)
+Pinecone
+This approach lowers error rates by giving the LLM multiple attempts before guaranteeing a fallback match via embeddings.
 
-Minimizes error rates by giving the LLM multiple attempts, then guaranteeing some fallback mapping if all else fails.
 🌐 Pinecone Embedding DB
-Role of Pinecone:
-We store embeddings for each MITRE technique (e.g., technique name + description) in a Pinecone index.
-When the LLM fails, we do an embedding similarity search in Pinecone.
-Workflow:
-retrieve_experiences(technique_name) returns the nearest matches based on embeddings.
-If found, the top match is used as the fallback.
-Configuration:
-Make sure your Pinecone API key/index are set in the code.
+Role of Pinecone
+Stores embeddings for each MITRE technique (e.g., name + description) in a Pinecone index.
+If the LLM fails, we use embedding-based similarity search to find the closest technique.
+Configuration
+Set your Pinecone API key and index name in the code or environment variables.
+Use retrieve_experiences(technique_name) (or equivalent function) to fetch the nearest matches.
 ⚡ Faster Processing Techniques
-Partial Saves:
-Every SAVE_INTERVAL rules, we store a partial JSON file. This ensures progress is never fully lost.
-Batch Saves:
-After BATCH_SIZE rules, we finalize a batch JSON (e.g., mapped_results_1.json).
-Skipping Processed Rules:
-The script checks previously generated JSON files to avoid repeating work.
-Low Temperature & Structured Prompts:
-Using temperature=0.0 for deterministic output.
-Structured JSON prompts reduce ambiguity.
+Partial Saves: Saves progress every SAVE_INTERVAL rules to avoid data loss.
+Batch Saves: After BATCH_SIZE rules, creates a final batch JSON.
+Skipping Processed Rules: Checks previously generated JSON files to avoid re-processing.
+Low Temperature & Structured Prompts: Ensures deterministic LLM output and reduces confusion.
 📌 Frequently Asked Questions
 Q: Why does the rule ID start from 5251?
-A: Because START_FROM_RULE = 5001, meaning the script skips the first 5000 lines of the CSV.
+A: Because START_FROM_RULE = 5001, meaning the script skips the first 5,000 lines of the CSV.
 
-Q: How to process the entire CSV from the start?
+Q: How do I process the entire CSV from the beginning?
 A: Set START_FROM_RULE = 1.
 
 Q: What if the LLM returns invalid JSON?
-A: The rule is skipped or retried. We log a warning.
+A: The rule is skipped or retried, and a warning is logged.
 
 Q: How do I tune performance?
-A: Adjust BATCH_SIZE, SAVE_INTERVAL, and potentially reduce the number of rules processed at once.
+A: Adjust BATCH_SIZE, SAVE_INTERVAL, and reduce the number of rules processed at once.
 
 Q: Can I exclude Pinecone?
-A: Yes. If you don’t want the embedding fallback, remove the Pinecone code and rely solely on LLM.
+A: Yes. If you don’t want the embedding fallback, remove the Pinecone logic and rely solely on the LLM.
+
