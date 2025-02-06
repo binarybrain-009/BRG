@@ -1,0 +1,2577 @@
+[
+    {
+        "suri_rule_id": "2525000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 1"
+    },
+    {
+        "suri_rule_id": "2525001",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 2"
+    },
+    {
+        "suri_rule_id": "2525002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 3"
+    },
+    {
+        "suri_rule_id": "2525003",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 4"
+    },
+    {
+        "suri_rule_id": "2525004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 5"
+    },
+    {
+        "suri_rule_id": "2525005",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 6"
+    },
+    {
+        "suri_rule_id": "2525006",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 7"
+    },
+    {
+        "suri_rule_id": "2525007",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 8"
+    },
+    {
+        "suri_rule_id": "2525008",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 9"
+    },
+    {
+        "suri_rule_id": "2525009",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET 3CORESec Poor Reputation IP group 10"
+    },
+    {
+        "suri_rule_id": "2403300",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 1"
+    },
+    {
+        "suri_rule_id": "2403301",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 2"
+    },
+    {
+        "suri_rule_id": "2403302",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 3"
+    },
+    {
+        "suri_rule_id": "2403303",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 4"
+    },
+    {
+        "suri_rule_id": "2403304",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 5"
+    },
+    {
+        "suri_rule_id": "2403305",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 6"
+    },
+    {
+        "suri_rule_id": "2403306",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 7"
+    },
+    {
+        "suri_rule_id": "2403307",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 8"
+    },
+    {
+        "suri_rule_id": "2403308",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 9"
+    },
+    {
+        "suri_rule_id": "2403309",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET CINS Active Threat Intelligence Poor Reputation IP group 10"
+    },
+    {
+        "suri_rule_id": "2500000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 1"
+    },
+    {
+        "suri_rule_id": "2500002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 2"
+    },
+    {
+        "suri_rule_id": "2500004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 3"
+    },
+    {
+        "suri_rule_id": "2500006",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 4"
+    },
+    {
+        "suri_rule_id": "2500008",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 5"
+    },
+    {
+        "suri_rule_id": "2500010",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 6"
+    },
+    {
+        "suri_rule_id": "2500012",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 7"
+    },
+    {
+        "suri_rule_id": "2500014",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 8"
+    },
+    {
+        "suri_rule_id": "2500016",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 9"
+    },
+    {
+        "suri_rule_id": "2500018",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET COMPROMISED Known Compromised or Hostile Host Traffic group 10"
+    },
+    {
+        "suri_rule_id": "2400000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 1"
+    },
+    {
+        "suri_rule_id": "2400001",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 2"
+    },
+    {
+        "suri_rule_id": "2400002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 3"
+    },
+    {
+        "suri_rule_id": "2400003",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 4"
+    },
+    {
+        "suri_rule_id": "2400004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 5"
+    },
+    {
+        "suri_rule_id": "2400005",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 6"
+    },
+    {
+        "suri_rule_id": "2400006",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 7"
+    },
+    {
+        "suri_rule_id": "2400007",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 8"
+    },
+    {
+        "suri_rule_id": "2400008",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 9"
+    },
+    {
+        "suri_rule_id": "2400009",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Spamhaus DROP Listed Traffic Inbound group 10"
+    },
+    {
+        "suri_rule_id": "2402000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET DROP Dshield Block Listed Source group 1"
+    },
+    {
+        "suri_rule_id": "2014391",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX EdrawSoft Office Viewer Component ActiveX FtpUploadFile Format String Function Call Attempt"
+    },
+    {
+        "suri_rule_id": "2015563",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Possible BarCodeWiz BarcodeWiz.dll ActiveX Control Barcode Method Remote Buffer Overflow Attempt"
+    },
+    {
+        "suri_rule_id": "2014390",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX EdrawSoft Office Viewer Component ActiveX FtpUploadFile Stack Buffer Overflow"
+    },
+    {
+        "suri_rule_id": "2014326",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX ASUS Net4Switch ActiveX CxDbgPrint Format String Function Call Attempt"
+    },
+    {
+        "suri_rule_id": "2014325",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX ASUS Net4Switch ipswcom.dll ActiveX Stack Buffer Overflow"
+    },
+    {
+        "suri_rule_id": "2013814",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (ExportEdaBom) Format String Function Call"
+    },
+    {
+        "suri_rule_id": "2013813",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (ExportEdaBom)"
+    },
+    {
+        "suri_rule_id": "2013812",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (Export3DBom) Format String Function Call"
+    },
+    {
+        "suri_rule_id": "2013811",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (Export3DBom)"
+    },
+    {
+        "suri_rule_id": "2013810",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (SaveViewStateToFile) Format String Function Call"
+    },
+    {
+        "suri_rule_id": "2013809",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Oracle AutoVue Activex Insecure method (SaveViewStateToFile)"
+    },
+    {
+        "suri_rule_id": "2013566",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Tom Sawyer Possible Memory Corruption Attempt Format String Function Call"
+    },
+    {
+        "suri_rule_id": "2013432",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX TeeChart Professional ActiveX Control integer overflow Vulnerability 5"
+    },
+    {
+        "suri_rule_id": "2013431",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX TeeChart Professional ActiveX Control integer overflow Vulnerability 4"
+    },
+    {
+        "suri_rule_id": "2013430",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX TeeChart Professional ActiveX Control integer overflow Vulnerability 3"
+    },
+    {
+        "suri_rule_id": "2013429",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX TeeChart Professional ActiveX Control integer overflow Vulnerability 2"
+    },
+    {
+        "suri_rule_id": "2013428",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX TeeChart Professional ActiveX Control integer overflow Vulnerability 1"
+    },
+    {
+        "suri_rule_id": "2013233",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX Chilkat Crypt ActiveX Control SaveDecrypted Insecure Method Vulnerability"
+    },
+    {
+        "suri_rule_id": "2013232",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ACTIVEX IDrive Online Backup ActiveX control SaveToFile Insecure Method"
+    },
+    {
+        "suri_rule_id": "2029098",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP PrivaZer Checkin"
+    },
+    {
+        "suri_rule_id": "2029099",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32/GameHack.COG Variant CnC Activity"
+    },
+    {
+        "suri_rule_id": "2029107",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Observed DNS Query to OSX/Bundalore Domain"
+    },
+    {
+        "suri_rule_id": "2029186",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32/InstallDisck SMTP Checkin"
+    },
+    {
+        "suri_rule_id": "2029211",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32/DownloadAssistant.G Variant Error Report"
+    },
+    {
+        "suri_rule_id": "2018197",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32.AdWare.iBryte.C Install"
+    },
+    {
+        "suri_rule_id": "2029351",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP GreatArcadeHits CnC Activity"
+    },
+    {
+        "suri_rule_id": "2029531",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32/Adware.Bang5mai.BB CnC Activity M3"
+    },
+    {
+        "suri_rule_id": "2029543",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Ads2Srv Bundle Installer Offer Request"
+    },
+    {
+        "suri_rule_id": "2029546",
+        "suri_rule_classtype": "pup-activity",
+        "suri_rule_msg": "ET ADWARE_PUP Win32/YTDDownloader.F Variant CnC Activity"
+    },
+    {
+        "suri_rule_id": "2020087",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Microsoft Netsh Firewall Disable Output Outbound"
+    },
+    {
+        "suri_rule_id": "2020088",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE SysInternals sc.exe Output Outbound"
+    },
+    {
+        "suri_rule_id": "2003149",
+        "suri_rule_classtype": "successful-recon-limited",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Possible /etc/passwd via SMTP (linux style)"
+    },
+    {
+        "suri_rule_id": "2003150",
+        "suri_rule_classtype": "successful-recon-limited",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Possible /etc/passwd via SMTP (BSD style)"
+    },
+    {
+        "suri_rule_id": "2022819",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Possible CVE-2016-1287 Inbound Reverse CLI Shellcode"
+    },
+    {
+        "suri_rule_id": "2027151",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET ATTACK_RESPONSE LaZagne Artifact Outbound in FTP"
+    },
+    {
+        "suri_rule_id": "2027435",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Windows 64bit procdump Dump File Exfiltration"
+    },
+    {
+        "suri_rule_id": "2027436",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Windows 32bit procdump Dump File Exfiltration"
+    },
+    {
+        "suri_rule_id": "2017701",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET ATTACK_RESPONSE webr00t WebShell Access"
+    },
+    {
+        "suri_rule_id": "2018392",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Possible  MS CMD Shell opened on local system 2"
+    },
+    {
+        "suri_rule_id": "2002327",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET CHAT Google Talk (Jabber) Client Login"
+    },
+    {
+        "suri_rule_id": "2002334",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET CHAT Google IM traffic Jabber client sign-on"
+    },
+    {
+        "suri_rule_id": "2101986",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "GPL CHAT MSN outbound file transfer request"
+    },
+    {
+        "suri_rule_id": "2101988",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "GPL CHAT MSN outbound file transfer accept"
+    },
+    {
+        "suri_rule_id": "2101989",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "GPL CHAT MSN outbound file transfer rejected"
+    },
+    {
+        "suri_rule_id": "2102456",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "GPL CHAT Yahoo Messenger File Transfer Receive Request"
+    },
+    {
+        "suri_rule_id": "2010785",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET CHAT Facebook Chat (buddy list)"
+    },
+    {
+        "suri_rule_id": "2008295",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET CHAT Gadu-Gadu IM Login Server Request"
+    },
+    {
+        "suri_rule_id": "2007866",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CHAT Gadu-Gadu Chat Client Checkin via HTTP"
+    },
+    {
+        "suri_rule_id": "2010784",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET CHAT Facebook Chat (send message)"
+    },
+    {
+        "suri_rule_id": "2017872",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER W32/BitCoinMiner.MultiThreat Stratum Protocol Mining.Notify Initial Connection Server Response"
+    },
+    {
+        "suri_rule_id": "2017873",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER W32/BitCoinMiner.MultiThreat Stratum Protocol Mining.Notify Work Server Response"
+    },
+    {
+        "suri_rule_id": "2017878",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER W32/BitCoinMiner.MultiThreat Getblocktemplate Protocol Server Connection"
+    },
+    {
+        "suri_rule_id": "2017879",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER W32/BitCoinMiner.MultiThreat Getblocktemplate Protocol Server Coinbasetxn Begin Mining Response"
+    },
+    {
+        "suri_rule_id": "2025186",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER CoinMiner Malicious Authline Seen After CVE-2017-10271 Exploit"
+    },
+    {
+        "suri_rule_id": "2026750",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER Random Hash Pascalcoin Miner Checkin"
+    },
+    {
+        "suri_rule_id": "2019825",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER Cryptexplorer API Check - Potential CoinMiner Traffic"
+    },
+    {
+        "suri_rule_id": "2018014",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER PrimeCoinMiner.Protominer"
+    },
+    {
+        "suri_rule_id": "2024828",
+        "suri_rule_classtype": "coin-mining",
+        "suri_rule_msg": "ET COINMINER Observed DNS Query to Browser Coinminer (crypto-loot[.]com)"
+    },
+    {
+        "suri_rule_id": "2025535",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET COINMINER Observed Coin-Hive In Browser Mining Domain (coin-hive .com in TLS SNI)"
+    },
+    {
+        "suri_rule_id": "2031288",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] HackTool.TCP.Rubeus.[nonce 2]"
+    },
+    {
+        "suri_rule_id": "2031295",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] HackTool.UDP.Rubeus.[nonce 2]"
+    },
+    {
+        "suri_rule_id": "2031296",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] POSSIBLE HackTool.TCP.Rubeus.[User32LogonProcesss]"
+    },
+    {
+        "suri_rule_id": "2031297",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] Backdoor.HTTP.GORAT.[Build ID]"
+    },
+    {
+        "suri_rule_id": "2031269",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] HackTool.UDP.Rubeus.[nonce]"
+    },
+    {
+        "suri_rule_id": "2031266",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] HackTool.TCP.Rubeus.[nonce]"
+    },
+    {
+        "suri_rule_id": "2031301",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] M.HackTool.SMB.Impacket-Obfuscation.[Service Names] M2"
+    },
+    {
+        "suri_rule_id": "2031300",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] M.HackTool.SMB.Impacket-Obfuscation.[Service Names] M1"
+    },
+    {
+        "suri_rule_id": "2031302",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] M.HackTool.SMB.Impacket-Obfuscation.[Service Names] M3"
+    },
+    {
+        "suri_rule_id": "2031303",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET CURRENT_EVENTS [Fireeye] M.HackTool.SMB.Impacket-Obfuscation.[Service Names] M4"
+    },
+    {
+        "suri_rule_id": "2101948",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL DNS zone transfer UDP"
+    },
+    {
+        "suri_rule_id": "2101616",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL DNS named version attempt"
+    },
+    {
+        "suri_rule_id": "2100252",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL DNS named iquery attempt"
+    },
+    {
+        "suri_rule_id": "2100256",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL DNS named authors attempt"
+    },
+    {
+        "suri_rule_id": "2013894",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS Excessive DNS Responses with 1 or more RR's (100+ in 10 seconds) to google.com.br possible Cache Poisoning Attempt"
+    },
+    {
+        "suri_rule_id": "2011802",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS DNS Lookup for localhost.DOMAIN.TLD"
+    },
+    {
+        "suri_rule_id": "2014169",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS Query for .su TLD (Soviet Union) Often Malware Related"
+    },
+    {
+        "suri_rule_id": "2023883",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS Query to a *.top domain - Likely Hostile"
+    },
+    {
+        "suri_rule_id": "2027757",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS Query for .to TLD"
+    },
+    {
+        "suri_rule_id": "2027758",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DNS Query for .cc TLD"
+    },
+    {
+        "suri_rule_id": "2017918",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x02"
+    },
+    {
+        "suri_rule_id": "2017920",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Possible NTP DDoS Multiple MON_LIST Seq 0 Response Spanning Multiple Packets IMPL 0x02"
+    },
+    {
+        "suri_rule_id": "2017921",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Possible NTP DDoS Multiple MON_LIST Seq 0 Response Spanning Multiple Packets IMPL 0x03"
+    },
+    {
+        "suri_rule_id": "2017965",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Likely NTP DDoS In Progress MON_LIST Response to Non-Ephemeral Port IMPL 0x02"
+    },
+    {
+        "suri_rule_id": "2019010",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Likely NTP DDoS In Progress PEER_LIST Response to Non-Ephemeral Port IMPL 0x02"
+    },
+    {
+        "suri_rule_id": "2019011",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Likely NTP DDoS In Progress PEER_LIST Response to Non-Ephemeral Port IMPL 0x03"
+    },
+    {
+        "suri_rule_id": "2019012",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Likely NTP DDoS In Progress PEER_LIST_SUM Response to Non-Ephemeral Port IMPL 0x02"
+    },
+    {
+        "suri_rule_id": "2019013",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Likely NTP DDoS In Progress PEER_LIST_SUM Response to Non-Ephemeral Port IMPL 0x03"
+    },
+    {
+        "suri_rule_id": "2019102",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET DOS Possible SSDP Amplification Scan in Progress"
+    },
+    {
+        "suri_rule_id": "2016016",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DOS DNS Amplification Attack Inbound"
+    },
+    {
+        "suri_rule_id": "2028679",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DNS Query to DynDNS Domain *.freedynamicdns .net"
+    },
+    {
+        "suri_rule_id": "2028680",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DNS Query to DynDNS Domain *.freedynamicdns .org"
+    },
+    {
+        "suri_rule_id": "2042711",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DYNAMIC_DNS Query to a *.dynamicdns .biz Domain"
+    },
+    {
+        "suri_rule_id": "2042732",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DYNAMIC_DNS HTTP Request to a *.freedynamicdns .net Domain"
+    },
+    {
+        "suri_rule_id": "2042754",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DYNAMIC_DNS HTTP Request to a *.freedynamicdns .org Domain"
+    },
+    {
+        "suri_rule_id": "2012758",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET DYN_DNS DYNAMIC_DNS Query to *.dyndns. Domain"
+    },
+    {
+        "suri_rule_id": "2013971",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS DYNAMIC_DNS Query for Suspicious .dyndns-at-home.com Domain"
+    },
+    {
+        "suri_rule_id": "2014091",
+        "suri_rule_classtype": "not-suspicious",
+        "suri_rule_msg": "ET DYN_DNS Dyndns Client IP Check"
+    },
+    {
+        "suri_rule_id": "2014092",
+        "suri_rule_classtype": "not-suspicious",
+        "suri_rule_msg": "ET DYN_DNS Dyndns Client User-Agent"
+    },
+    {
+        "suri_rule_id": "2016580",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS Java Request to DynDNS Pro Dynamic DNS Domain"
+    },
+    {
+        "suri_rule_id": "2027363",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET DYN_DNS Observed DNS Query to DynDNS Domain (dns-report .com)"
+    },
+    {
+        "suri_rule_id": "2012841",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Incognito Exploit Kit Checkin"
+    },
+    {
+        "suri_rule_id": "2014147",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Sakura Exploit Kit Landing Page Request"
+    },
+    {
+        "suri_rule_id": "2014148",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Sakura Exploit Kit Binary Load Request"
+    },
+    {
+        "suri_rule_id": "2014546",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT TDS Sutra - HTTP header redirecting to a SutraTDS"
+    },
+    {
+        "suri_rule_id": "2014609",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Incognito Exploit Kit Java request to images.php?t="
+    },
+    {
+        "suri_rule_id": "2014639",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Incognito Exploit Kit PDF request to images.php?t=81118"
+    },
+    {
+        "suri_rule_id": "2014657",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Unkown exploit kit pdf download"
+    },
+    {
+        "suri_rule_id": "2014851",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT Sakura Exploit Kit Version 1.1 Archive Request"
+    },
+    {
+        "suri_rule_id": "2014924",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT DRIVEBY Incognito Payload Requested /getfile.php by Java Client"
+    },
+    {
+        "suri_rule_id": "2014967",
+        "suri_rule_classtype": "exploit-kit",
+        "suri_rule_msg": "ET EXPLOIT_KIT - Landing Page Requested - 15Alpha1Digit.php"
+    },
+    {
+        "suri_rule_id": "2025804",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT bin bash base64 encoded Remote Code Execution 1"
+    },
+    {
+        "suri_rule_id": "2025805",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT bin bash base64 encoded Remote Code Execution 2"
+    },
+    {
+        "suri_rule_id": "2025807",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script base64 encoded Remote Code Execution 1"
+    },
+    {
+        "suri_rule_id": "2025808",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script base64 encoded Remote Code Execution 2"
+    },
+    {
+        "suri_rule_id": "2025810",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 1"
+    },
+    {
+        "suri_rule_id": "2025811",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 2"
+    },
+    {
+        "suri_rule_id": "2025813",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 4"
+    },
+    {
+        "suri_rule_id": "2025814",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 5"
+    },
+    {
+        "suri_rule_id": "2025815",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 6"
+    },
+    {
+        "suri_rule_id": "2025816",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET EXPLOIT php script double base64 encoded Remote Code Execution 7"
+    },
+    {
+        "suri_rule_id": "2036563",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING External File Sharing Domain in DNS Lookup (anonfile .com)"
+    },
+    {
+        "suri_rule_id": "2036870",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING Anonymous File Sharing Domain in DNS Lookup (fromsmash .co)"
+    },
+    {
+        "suri_rule_id": "2036936",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING File Sharing Related Domain in DNS Lookup (download .mediafire .com)"
+    },
+    {
+        "suri_rule_id": "2036937",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING File Sharing Related Domain in DNS Lookup (filesend .jp)"
+    },
+    {
+        "suri_rule_id": "2038575",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING Cloud File Sharing Domain in DNS Lookup (.filebase .io)"
+    },
+    {
+        "suri_rule_id": "2039754",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET FILE_SHARING File Sharing Service Domain (docdroid .net) in TLS SNI"
+    },
+    {
+        "suri_rule_id": "2044434",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING File Sharing Related Domain in DNS Lookup (zippyshare .com)"
+    },
+    {
+        "suri_rule_id": "2044436",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET FILE_SHARING Observed File Sharing Domain (zippyshare .com in TLS SNI)"
+    },
+    {
+        "suri_rule_id": "2046304",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET FILE_SHARING Observered File Sharing Service in TLS SNI (frocdn .ch)"
+    },
+    {
+        "suri_rule_id": "2046652",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET FILE_SHARING Commonly Abused File Sharing Domain (put .io) in DNS Lookup"
+    },
+    {
+        "suri_rule_id": "2101779",
+        "suri_rule_classtype": "denial-of-service",
+        "suri_rule_msg": "GPL FTP CWD .... attempt"
+    },
+    {
+        "suri_rule_id": "2101864",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "GPL FTP SITE NEWER attempt"
+    },
+    {
+        "suri_rule_id": "2101919",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP CWD overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101920",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP SITE NEWER overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101921",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP SITE ZIPCHK overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101927",
+        "suri_rule_classtype": "suspicious-filename-detect",
+        "suri_rule_msg": "GPL FTP authorized_keys file transferred"
+    },
+    {
+        "suri_rule_id": "2101928",
+        "suri_rule_classtype": "suspicious-filename-detect",
+        "suri_rule_msg": "GPL FTP shadow retrieval attempt"
+    },
+    {
+        "suri_rule_id": "2101942",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP RMDIR overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101972",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP PASS overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101973",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL FTP MKD overflow attempt"
+    },
+    {
+        "suri_rule_id": "2031619",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES Playit Activity (playit .gg)"
+    },
+    {
+        "suri_rule_id": "2034841",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES Moonlight Hack Domain in DNS Lookup"
+    },
+    {
+        "suri_rule_id": "2034842",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES Moonlight Hack Domain in DNS Lookup"
+    },
+    {
+        "suri_rule_id": "2034843",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES Moonlight Hack Actvity (GET)"
+    },
+    {
+        "suri_rule_id": "2034901",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET GAMES UnknownApps Game Cheat Service Checkin (auth .hwidspoof .me)"
+    },
+    {
+        "suri_rule_id": "2034902",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET GAMES UnknownApps Game Cheat Service Checkin (auth .unknownp .one)"
+    },
+    {
+        "suri_rule_id": "2037905",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET GAMES Solaris2 Checkin"
+    },
+    {
+        "suri_rule_id": "2031878",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES GameHouse License Check"
+    },
+    {
+        "suri_rule_id": "2013710",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET GAMES FreeRide Games"
+    },
+    {
+        "suri_rule_id": "2027417",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET GAMES Wolfteam HileYapak Server Response"
+    },
+    {
+        "suri_rule_id": "2043101",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET GAMES Multiple Game Cheat Application Related Activity"
+    },
+    {
+        "suri_rule_id": "2011487",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING Suspicious Percentage Symbol Usage in FTP Username"
+    },
+    {
+        "suri_rule_id": "2017319",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS IRC - NICK and 3 Letter Country Code"
+    },
+    {
+        "suri_rule_id": "2017322",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS IRC - NICK and Win"
+    },
+    {
+        "suri_rule_id": "2017323",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS IRC - NICK and -PC"
+    },
+    {
+        "suri_rule_id": "2017884",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - ZIP file with .exe filename inside (Inbound)"
+    },
+    {
+        "suri_rule_id": "2017885",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - RAR file with .exe filename inside"
+    },
+    {
+        "suri_rule_id": "2017887",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - ZIP file with .com filename inside"
+    },
+    {
+        "suri_rule_id": "2017888",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - RAR file with .com filename inside"
+    },
+    {
+        "suri_rule_id": "2017889",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - ZIP file with .scr filename inside"
+    },
+    {
+        "suri_rule_id": "2017890",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET HUNTING SUSPICIOUS SMTP EXE - RAR file with .scr filename inside"
+    },
+    {
+        "suri_rule_id": "2100369",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING BayRS Router"
+    },
+    {
+        "suri_rule_id": "2100370",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING BeOS4.x"
+    },
+    {
+        "suri_rule_id": "2100371",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Cisco Type.x"
+    },
+    {
+        "suri_rule_id": "2100373",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Flowpoint2200 or Network Management Software"
+    },
+    {
+        "suri_rule_id": "2100374",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING IP NetMonitor Macintosh"
+    },
+    {
+        "suri_rule_id": "2100376",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Microsoft Windows"
+    },
+    {
+        "suri_rule_id": "2100377",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Network Toolbox 3 Windows"
+    },
+    {
+        "suri_rule_id": "2100378",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Ping-O-MeterWindows"
+    },
+    {
+        "suri_rule_id": "2100379",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Pinger Windows"
+    },
+    {
+        "suri_rule_id": "2100380",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP PING Seer Windows"
+    },
+    {
+        "suri_rule_id": "2101903",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP rename overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101904",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP find overflow attempt"
+    },
+    {
+        "suri_rule_id": "2103070",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP fetch overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101842",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL IMAP login buffer overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101844",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP authenticate overflow attempt"
+    },
+    {
+        "suri_rule_id": "2102330",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP auth overflow attempt"
+    },
+    {
+        "suri_rule_id": "2103076",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP unsubscribe overflow attempt"
+    },
+    {
+        "suri_rule_id": "2103075",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP unsubscribe literal overflow attempt"
+    },
+    {
+        "suri_rule_id": "2103074",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP subscribe overflow attempt"
+    },
+    {
+        "suri_rule_id": "2103073",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL IMAP subscribe literal overflow attempt"
+    },
+    {
+        "suri_rule_id": "2003281",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv4 Port 5050 Inbound Request (Linux Source)"
+    },
+    {
+        "suri_rule_id": "2003268",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv4 Port 443 Inbound Request (Windows Source)"
+    },
+    {
+        "suri_rule_id": "2003269",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv4 Port 443 Inbound Request (Linux Source)"
+    },
+    {
+        "suri_rule_id": "2003256",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv4 Port 25 Inbound Request (Windows Source)"
+    },
+    {
+        "suri_rule_id": "2003254",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv5 Port 25 Inbound Request (Windows Source)"
+    },
+    {
+        "suri_rule_id": "2003255",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv5 Port 25 Inbound Request (Linux Source)"
+    },
+    {
+        "suri_rule_id": "2003257",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv5 Port 25 Inbound Request (Linux Source)"
+    },
+    {
+        "suri_rule_id": "2003258",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv5 DNS Inbound Request (Windows Source)"
+    },
+    {
+        "suri_rule_id": "2003259",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET INFO SOCKSv5 DNS Inbound Request (Linux Source)"
+    },
+    {
+        "suri_rule_id": "2028301",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Metasploit http scanner (tested: 4.11.5 Kali)"
+    },
+    {
+        "suri_rule_id": "2028302",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Metasploit CCS Scanner"
+    },
+    {
+        "suri_rule_id": "2028303",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Metasploit HeartBleed Scanner"
+    },
+    {
+        "suri_rule_id": "2028304",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Metasploit SSL Scanner"
+    },
+    {
+        "suri_rule_id": "2028308",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - mitmproxy"
+    },
+    {
+        "suri_rule_id": "2028309",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - mitmproxy"
+    },
+    {
+        "suri_rule_id": "2028327",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Nikto (tested 2.1.6 - Kali)"
+    },
+    {
+        "suri_rule_id": "2028328",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Nikto (tested 2.1.6 - Kali)"
+    },
+    {
+        "suri_rule_id": "2028329",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Nikto (tested v2.1.6)"
+    },
+    {
+        "suri_rule_id": "2028360",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Possible Malware - AnglerEK"
+    },
+    {
+        "suri_rule_id": "2028361",
+        "suri_rule_classtype": "unknown",
+        "suri_rule_msg": "ET JA3 Hash - Possible Malware - AnglerEK"
+    },
+    {
+        "suri_rule_id": "2008908",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Trojan.Delf-5496 New Infection Report"
+    },
+    {
+        "suri_rule_id": "2018275",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Linux/Onimiki DNS trojan activity long format (Outbound)"
+    },
+    {
+        "suri_rule_id": "2018276",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Linux/Onimiki DNS trojan activity long format (Inbound)"
+    },
+    {
+        "suri_rule_id": "2018320",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Win32/Sisproc"
+    },
+    {
+        "suri_rule_id": "2018325",
+        "suri_rule_classtype": "command-and-control",
+        "suri_rule_msg": "ET MALWARE Bozok.RAT checkin"
+    },
+    {
+        "suri_rule_id": "2018129",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE W32/Trojan-Gypikon Sending Data"
+    },
+    {
+        "suri_rule_id": "2014270",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Backdoor.Win32.RShot Ping Outbound"
+    },
+    {
+        "suri_rule_id": "2018467",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE PandoraRat/Refroso.bsp Activity"
+    },
+    {
+        "suri_rule_id": "2018468",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE PandoraRat/Refroso.bsp Directory Listing Sent To Server"
+    },
+    {
+        "suri_rule_id": "2018482",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MALWARE Possible Zendran ELF IRCBot Joining Channel"
+    },
+    {
+        "suri_rule_id": "2100511",
+        "suri_rule_classtype": "unsuccessful-user",
+        "suri_rule_msg": "GPL MISC Invalid PCAnywhere Login"
+    },
+    {
+        "suri_rule_id": "2100602",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL MISC rlogin bin"
+    },
+    {
+        "suri_rule_id": "2100603",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL MISC rlogin echo++"
+    },
+    {
+        "suri_rule_id": "2100606",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL MISC rlogin root"
+    },
+    {
+        "suri_rule_id": "2100608",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL MISC rsh echo + +"
+    },
+    {
+        "suri_rule_id": "2100609",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL MISC rsh froot"
+    },
+    {
+        "suri_rule_id": "2100610",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL MISC rsh root"
+    },
+    {
+        "suri_rule_id": "2100616",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL MISC ident version request"
+    },
+    {
+        "suri_rule_id": "2101323",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL MISC rwhoisd format string attempt"
+    },
+    {
+        "suri_rule_id": "2102008",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL MISC CVS invalid user authentication response"
+    },
+    {
+        "suri_rule_id": "2013040",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android.Tonclank JAR File Download"
+    },
+    {
+        "suri_rule_id": "2013078",
+        "suri_rule_classtype": "command-and-control",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android.YzhcSms CnC Keepalive Message"
+    },
+    {
+        "suri_rule_id": "2013079",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android.YzhcSms URL for Possible File Download"
+    },
+    {
+        "suri_rule_id": "2013139",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE XML Style POST Of IMSI International Mobile Subscriber Identity"
+    },
+    {
+        "suri_rule_id": "2013209",
+        "suri_rule_classtype": "command-and-control",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android.Walkinwat Sending Data to CnC Server"
+    },
+    {
+        "suri_rule_id": "2013240",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android/GoldDream Task Information Retrieval"
+    },
+    {
+        "suri_rule_id": "2012863",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE SslCrypt Server Communication"
+    },
+    {
+        "suri_rule_id": "2013316",
+        "suri_rule_classtype": "command-and-control",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android.AdSms Retrieving XML File from CnC Server"
+    },
+    {
+        "suri_rule_id": "2013965",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android/SndApp.B Sending Device Information"
+    },
+    {
+        "suri_rule_id": "2013966",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET MOBILE_MALWARE Android/Ozotshielder.A Checkin"
+    },
+    {
+        "suri_rule_id": "2008691",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (2)"
+    },
+    {
+        "suri_rule_id": "2008692",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (3)"
+    },
+    {
+        "suri_rule_id": "2008693",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (4)"
+    },
+    {
+        "suri_rule_id": "2008694",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (5)"
+    },
+    {
+        "suri_rule_id": "2008696",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (7)"
+    },
+    {
+        "suri_rule_id": "2008697",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (8)"
+    },
+    {
+        "suri_rule_id": "2008698",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (9)"
+    },
+    {
+        "suri_rule_id": "2008699",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (10)"
+    },
+    {
+        "suri_rule_id": "2008700",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 - Known Exploit Instance"
+    },
+    {
+        "suri_rule_id": "2008701",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (11)"
+    },
+    {
+        "suri_rule_id": "2103179",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL NETBIOS SMB CoGetInstanceFromFile unicode little endian overflow attempt"
+    },
+    {
+        "suri_rule_id": "2008581",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P BitTorrent DHT ping request"
+    },
+    {
+        "suri_rule_id": "2008585",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P BitTorrent DHT announce_peers request"
+    },
+    {
+        "suri_rule_id": "2010008",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P Octoshape P2P streaming media"
+    },
+    {
+        "suri_rule_id": "2008583",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P BitTorrent DHT nodes reply"
+    },
+    {
+        "suri_rule_id": "2001298",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P eDonkey Server Status Request"
+    },
+    {
+        "suri_rule_id": "2009966",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P KuGoo P2P Connection"
+    },
+    {
+        "suri_rule_id": "2010139",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P Vuze BT Connection"
+    },
+    {
+        "suri_rule_id": "2010141",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P Vuze BT UDP Connection (2)"
+    },
+    {
+        "suri_rule_id": "2010142",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P Vuze BT UDP Connection (3)"
+    },
+    {
+        "suri_rule_id": "2010143",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET P2P Vuze BT UDP Connection (4)"
+    },
+    {
+        "suri_rule_id": "2030296",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Yahoo Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030297",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Paypal Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030298",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Multibrand Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030299",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Instagram Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030300",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - SunTrust Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030301",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - VK Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030302",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Possible Generic Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030303",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Chase Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030304",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Instagram Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2030305",
+        "suri_rule_classtype": "social-engineering",
+        "suri_rule_msg": "ET PHISHING Common Form POST - Netease Webmail Phishing Landing 2020-06-11"
+    },
+    {
+        "suri_rule_id": "2100288",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 x86 Linux overflow"
+    },
+    {
+        "suri_rule_id": "2100289",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 x86 SCO overflow"
+    },
+    {
+        "suri_rule_id": "2101634",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 POP3 PASS overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101635",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 APOP overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101936",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 AUTH overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101937",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 LIST overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101938",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 XTND overflow attempt"
+    },
+    {
+        "suri_rule_id": "2102110",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 STAT overflow attempt"
+    },
+    {
+        "suri_rule_id": "2102409",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL POP3 APOP USER overflow attempt"
+    },
+    {
+        "suri_rule_id": "2008794",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS TeamViewer Keep-alive outbound"
+    },
+    {
+        "suri_rule_id": "2008795",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS TeamViewer Keep-alive inbound"
+    },
+    {
+        "suri_rule_id": "2027761",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS SSL/TLS Certificate Observed (AnyDesk Remote Desktop Software)"
+    },
+    {
+        "suri_rule_id": "2050707",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS AnyDesk Revoked Code Signing Certificate Observed"
+    },
+    {
+        "suri_rule_id": "2027762",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET REMOTE_ACCESS AnyDesk Remote Desktop Software User-Agent"
+    },
+    {
+        "suri_rule_id": "2027192",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET REMOTE_ACCESS Tunneled RDP msts Handshake"
+    },
+    {
+        "suri_rule_id": "2027193",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET REMOTE_ACCESS Tunneled RDP Handshake"
+    },
+    {
+        "suri_rule_id": "2027412",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET REMOTE_ACCESS Inbound RDP Connection with TLS Security Protocol Requested"
+    },
+    {
+        "suri_rule_id": "2027413",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET REMOTE_ACCESS Inbound RDP Connection with Minimal Security Protocol Requested"
+    },
+    {
+        "suri_rule_id": "2048143",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS ScreenConnect/ConnectWise Initial Checkin Packet M3"
+    },
+    {
+        "suri_rule_id": "2036627",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET REMOTE_ACCESS ScreenConnect/ConnectWise Initial Checkin Packet M1"
+    },
+    {
+        "suri_rule_id": "2036245",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Matrix Max Stealer Exfiltration Observed"
+    },
+    {
+        "suri_rule_id": "2036246",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Zingo/GinzoStealer Stealer Exfiltration Observed"
+    },
+    {
+        "suri_rule_id": "2036321",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED 000Stealer Data Exfiltration M2"
+    },
+    {
+        "suri_rule_id": "2036381",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET RETIRED Possible Bot CnC Checkin (GET)"
+    },
+    {
+        "suri_rule_id": "2036382",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET RETIRED Possible Bot CnC Beacon (GET)"
+    },
+    {
+        "suri_rule_id": "2036426",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Nerbian RAT CnC Checkin"
+    },
+    {
+        "suri_rule_id": "2036427",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Nerbian RAT Data Exfiltration"
+    },
+    {
+        "suri_rule_id": "2036541",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Eternity Stealer Screen Capture Activity"
+    },
+    {
+        "suri_rule_id": "2036542",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED Eternity Stealer Data Exfiltration Activity"
+    },
+    {
+        "suri_rule_id": "2036597",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET RETIRED PennyWise Stealer Data Exfil M1"
+    },
+    {
+        "suri_rule_id": "2101959",
+        "suri_rule_classtype": "rpc-portmap-decode",
+        "suri_rule_msg": "GPL RPC portmap NFS request UDP"
+    },
+    {
+        "suri_rule_id": "2101961",
+        "suri_rule_classtype": "rpc-portmap-decode",
+        "suri_rule_msg": "GPL RPC portmap RQUOTA request UDP"
+    },
+    {
+        "suri_rule_id": "2101963",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL RPC RQUOTA getquota overflow attempt UDP"
+    },
+    {
+        "suri_rule_id": "2101964",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL RPC tooltalk UDP overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101923",
+        "suri_rule_classtype": "rpc-portmap-decode",
+        "suri_rule_msg": "GPL RPC portmap proxy attempt UDP"
+    },
+    {
+        "suri_rule_id": "2101907",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL RPC CMSD UDP CMSD_CREATE buffer overflow attempt"
+    },
+    {
+        "suri_rule_id": "2101913",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL RPC STATD UDP stat mon_name format string exploit attempt"
+    },
+    {
+        "suri_rule_id": "2101915",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL RPC STATD UDP monitor mon_name format string exploit attempt"
+    },
+    {
+        "suri_rule_id": "2101867",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL RPC xdmcp info query"
+    },
+    {
+        "suri_rule_id": "2101746",
+        "suri_rule_classtype": "rpc-portmap-decode",
+        "suri_rule_msg": "GPL RPC portmap cachefsd request UDP"
+    },
+    {
+        "suri_rule_id": "2011976",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET SCADA RealWin SCADA System Buffer Overflow"
+    },
+    {
+        "suri_rule_id": "2013120",
+        "suri_rule_classtype": "denial-of-service",
+        "suri_rule_msg": "ET SCADA Siemens FactoryLink 8 CSService Logging  Buffer Overflow Vulnerability"
+    },
+    {
+        "suri_rule_id": "2013074",
+        "suri_rule_classtype": "denial-of-service",
+        "suri_rule_msg": "ET SCADA DATAC RealWin SCADA Server 2 On_FC_CONNECT_FCS_a_FILE Buffer Overflow Vulnerability"
+    },
+    {
+        "suri_rule_id": "2013235",
+        "suri_rule_classtype": "denial-of-service",
+        "suri_rule_msg": "ET SCADA Golden FTP Server PASS Command Remote Buffer Overflow Attempt"
+    },
+    {
+        "suri_rule_id": "2008542",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET SCADA CitectSCADA ODBC Overflow Attempt"
+    },
+    {
+        "suri_rule_id": "2026003",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET SCADA SEIG SYSTEM 9 - Remote Code Execution"
+    },
+    {
+        "suri_rule_id": "2026005",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET SCADA SEIG Modbus 3.4 - Remote Code Execution"
+    },
+    {
+        "suri_rule_id": "2012096",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET SCADA DATAC RealWin SCADA Server Buffer Overflow"
+    },
+    {
+        "suri_rule_id": "2046158",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET SCADA IEC-104 TESTFR (Test Frame) Activation"
+    },
+    {
+        "suri_rule_id": "2046159",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET SCADA IEC-104 TESTFR (Test Frame) Confirmation"
+    },
+    {
+        "suri_rule_id": "2008578",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Sipvicious Scan"
+    },
+    {
+        "suri_rule_id": "2011766",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Modified Sipvicious User-Agent Detected (sundayddr)"
+    },
+    {
+        "suri_rule_id": "2008598",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Sipsak SIP scan"
+    },
+    {
+        "suri_rule_id": "2008609",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Sivus VOIP Vulnerability Scanner SIP Scan"
+    },
+    {
+        "suri_rule_id": "2008610",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Sivus VOIP Vulnerability Scanner SIP Components Scan"
+    },
+    {
+        "suri_rule_id": "2008094",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN External to Internal UPnP Request udp port 1900"
+    },
+    {
+        "suri_rule_id": "2008526",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Smap VOIP Device Scan"
+    },
+    {
+        "suri_rule_id": "2008568",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Voiper Toolkit Torturer Scan"
+    },
+    {
+        "suri_rule_id": "2008577",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Voiper Fuzzing Scan"
+    },
+    {
+        "suri_rule_id": "2008640",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN SIP erase_registrations/add registrations attempt"
+    },
+    {
+        "suri_rule_id": "2012925",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Javascript Split String Unicode Heap Spray Attempt"
+    },
+    {
+        "suri_rule_id": "2012535",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Unescape Variable Unicode Shellcode"
+    },
+    {
+        "suri_rule_id": "2012259",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common %u0c%u0c%u0c%u0c UTF-8 Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012258",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common %u0c0c%u0c0c UTF-16 Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012257",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common %0c%0c%0c%0c Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012255",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common %u0a%u0a%u0a%u0a UTF-8 Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012254",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common %u0a0a%u0a0a UTF-16 Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012252",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Common 0a0a0a0a Heap Spray String"
+    },
+    {
+        "suri_rule_id": "2012197",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Possible Unescape Encoded Content With Split String Obfuscation 2"
+    },
+    {
+        "suri_rule_id": "2012196",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Possible Unescape Encoded Content With Split String Obfuscation"
+    },
+    {
+        "suri_rule_id": "2012112",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "ET SHELLCODE Possible Encoded %90 NOP SLED"
+    },
+    {
+        "suri_rule_id": "2019340",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET SMTP Possible ComputerCop Log Transmitted via SMTP"
+    },
+    {
+        "suri_rule_id": "2023255",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET SMTP Incoming SMTP Message with Possibly Malicious MIME Epilogue 2016-05-13 (BadEpilogue)"
+    },
+    {
+        "suri_rule_id": "2100654",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL SMTP RCPT TO overflow"
+    },
+    {
+        "suri_rule_id": "2100659",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SMTP expn decode"
+    },
+    {
+        "suri_rule_id": "2100660",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SMTP expn root"
+    },
+    {
+        "suri_rule_id": "2100672",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SMTP vrfy decode"
+    },
+    {
+        "suri_rule_id": "2101446",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SMTP vrfy root"
+    },
+    {
+        "suri_rule_id": "2102259",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL SMTP EXPN overflow attempt"
+    },
+    {
+        "suri_rule_id": "2102275",
+        "suri_rule_classtype": "suspicious-login",
+        "suri_rule_msg": "GPL SMTP AUTH LOGON brute force attempt"
+    },
+    {
+        "suri_rule_id": "2012986",
+        "suri_rule_classtype": "not-suspicious",
+        "suri_rule_msg": "ET SMTP Robtex.com Block Message"
+    },
+    {
+        "suri_rule_id": "2101892",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL SNMP null community string attempt"
+    },
+    {
+        "suri_rule_id": "2016178",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET SNMP missing community string attempt 1"
+    },
+    {
+        "suri_rule_id": "2016179",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET SNMP missing community string attempt 2"
+    },
+    {
+        "suri_rule_id": "2016181",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET SNMP missing community string attempt 4"
+    },
+    {
+        "suri_rule_id": "2101413",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SNMP private access udp"
+    },
+    {
+        "suri_rule_id": "2101411",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SNMP public access udp"
+    },
+    {
+        "suri_rule_id": "2101427",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL SNMP PROTOS test-suite-trap-app attempt"
+    },
+    {
+        "suri_rule_id": "2100516",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL SNMP SNMP NT UserList"
+    },
+    {
+        "suri_rule_id": "2015856",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY)"
+    },
+    {
+        "suri_rule_id": "2015959",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET SNMP Samsung Printer SNMP Hardcode RW Community String"
+    },
+    {
+        "suri_rule_id": "2100677",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sp_password password change"
+    },
+    {
+        "suri_rule_id": "2100678",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sp_delete_alert log file deletion"
+    },
+    {
+        "suri_rule_id": "2100680",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sa login failed"
+    },
+    {
+        "suri_rule_id": "2100681",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL xp_cmdshell program execution"
+    },
+    {
+        "suri_rule_id": "2100683",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sp_password - password change"
+    },
+    {
+        "suri_rule_id": "2100684",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sp_delete_alert log file deletion"
+    },
+    {
+        "suri_rule_id": "2100685",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL sp_adduser - database user creation"
+    },
+    {
+        "suri_rule_id": "2100688",
+        "suri_rule_classtype": "unsuccessful-user",
+        "suri_rule_msg": "GPL SQL sa login failed"
+    },
+    {
+        "suri_rule_id": "2100690",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "GPL SQL xp_printstatements possible buffer overflow"
+    },
+    {
+        "suri_rule_id": "2100692",
+        "suri_rule_classtype": "shellcode-detect",
+        "suri_rule_msg": "GPL SQL shellcode attempt"
+    },
+    {
+        "suri_rule_id": "2052798",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (passproviders .com)"
+    },
+    {
+        "suri_rule_id": "2052799",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (arkinfo .in)"
+    },
+    {
+        "suri_rule_id": "2052800",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES Commonly Actor Abused Online Service Domain (passproviders .com in TLS SNI)"
+    },
+    {
+        "suri_rule_id": "2052801",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES Commonly Actor Abused Online Service Domain (arkinfo .in in TLS SNI)"
+    },
+    {
+        "suri_rule_id": "2053281",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES Commonly Actor Abused Online Service Domain (syncthing .net)"
+    },
+    {
+        "suri_rule_id": "2053282",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES Commonly Actor Abused Online Service Domain (syncthing .net)"
+    },
+    {
+        "suri_rule_id": "2053496",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (data-seed-prebsc-2-s2 .binance .org)"
+    },
+    {
+        "suri_rule_id": "2053497",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (bsc-dataseed2 .defibit .io)"
+    },
+    {
+        "suri_rule_id": "2053498",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (data-seed-prebsc-2-s3 .binance .org)"
+    },
+    {
+        "suri_rule_id": "2053499",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET TA_ABUSED_SERVICES DNS Query to Commonly Actor Abused Online Service (bsc-dataseed4 .binance .org)"
+    },
+    {
+        "suri_rule_id": "2008860",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET TELNET External Telnet Attempt To Cisco Device With No Telnet Password Set (Automatically Dissalowed Until Password Set)"
+    },
+    {
+        "suri_rule_id": "2100492",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL TELNET TELNET login failed"
+    },
+    {
+        "suri_rule_id": "2100717",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL TELNET Telnet Root not on console"
+    },
+    {
+        "suri_rule_id": "2100719",
+        "suri_rule_classtype": "suspicious-login",
+        "suri_rule_msg": "GPL TELNET root login"
+    },
+    {
+        "suri_rule_id": "2101251",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL TELNET Bad Login"
+    },
+    {
+        "suri_rule_id": "2023019",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET TELNET busybox MIRAI hackers - Possible Brute Force Attack"
+    },
+    {
+        "suri_rule_id": "2023304",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET TELNET busybox ECCHI hackers - Possible Brute Force Attack"
+    },
+    {
+        "suri_rule_id": "2023901",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET TELNET busybox MEMES Hackers - Possible Brute Force Attack"
+    },
+    {
+        "suri_rule_id": "2008117",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP Data Transfer"
+    },
+    {
+        "suri_rule_id": "2008118",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP ACK"
+    },
+    {
+        "suri_rule_id": "2008119",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP Error Message"
+    },
+    {
+        "suri_rule_id": "2100518",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL TFTP Put"
+    },
+    {
+        "suri_rule_id": "2101442",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "GPL TFTP GET shadow"
+    },
+    {
+        "suri_rule_id": "2101443",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "GPL TFTP GET passwd"
+    },
+    {
+        "suri_rule_id": "2101289",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "GPL TFTP GET Admin.dll"
+    },
+    {
+        "suri_rule_id": "2101441",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "GPL TFTP GET nc.exe"
+    },
+    {
+        "suri_rule_id": "2101222",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "GPL TFTP MISC TFTP32 Get Format string attempt"
+    },
+    {
+        "suri_rule_id": "2008120",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP Read Request"
+    },
+    {
+        "suri_rule_id": "2008116",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP Write Request"
+    },
+    {
+        "suri_rule_id": "2015857",
+        "suri_rule_classtype": "policy-violation",
+        "suri_rule_msg": "ET TFTP Outbound TFTP Data Transfer with Cisco config"
+    },
+    {
+        "suri_rule_id": "2029232",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET USER_AGENTS Observed Suspicious UA (DxD)"
+    },
+    {
+        "suri_rule_id": "2012909",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET USER_AGENTS Suspicious User-Agent Fragment (WORKED)"
+    },
+    {
+        "suri_rule_id": "2013173",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET USER_AGENTS Atomic_Email_Hunter User-Agent Inbound"
+    },
+    {
+        "suri_rule_id": "2013174",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET USER_AGENTS Atomic_Email_Hunter User-Agent Outbound"
+    },
+    {
+        "suri_rule_id": "2014912",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET USER_AGENTS Unknown - Java Request  - gt 60char hex-ascii"
+    },
+    {
+        "suri_rule_id": "2030149",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET USER_AGENTS Possible QBot User-Agent"
+    },
+    {
+        "suri_rule_id": "2030170",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET USER_AGENTS Suspicious User-Agent (MSIE)"
+    },
+    {
+        "suri_rule_id": "2022775",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET USER_AGENTS BLEXBot User-Agent"
+    },
+    {
+        "suri_rule_id": "2030548",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET USER_AGENTS SAP CVE-2020-6287 PoC UA Observed"
+    },
+    {
+        "suri_rule_id": "2030556",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET USER_AGENTS Observed Suspicious UA (justupdate)"
+    },
+    {
+        "suri_rule_id": "2009699",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET VOIP REGISTER Message Flood UDP"
+    },
+    {
+        "suri_rule_id": "2009700",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET VOIP Multiple Unauthorized SIP Responses UDP"
+    },
+    {
+        "suri_rule_id": "2012296",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET VOIP Modified Sipvicious Asterisk PBX User-Agent"
+    },
+    {
+        "suri_rule_id": "2012297",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET VOIP Possible Inbound VOIP Scan/Misuse With User-Agent Zoiper"
+    },
+    {
+        "suri_rule_id": "2011422",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET VOIP Possible Modified Sipvicious OPTIONS Scan"
+    },
+    {
+        "suri_rule_id": "2100158",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "GPL VOIP SIP INVITE message flooding"
+    },
+    {
+        "suri_rule_id": "2100163",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "GPL VOIP SIP 407 Proxy Authentication Required Flood"
+    },
+    {
+        "suri_rule_id": "2100223",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL VOIP EXPLOIT SIP UDP Softphone overflow attempt"
+    },
+    {
+        "suri_rule_id": "2100162",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "GPL VOIP SIP 401 Unauthorized Flood"
+    },
+    {
+        "suri_rule_id": "2003194",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET VOIP Multiple Unauthorized SIP Responses TCP"
+    },
+    {
+        "suri_rule_id": "2007704",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_CLIENT Apple Quicktime RTSP Content-Type overflow attempt"
+    },
+    {
+        "suri_rule_id": "2011538",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_CLIENT Firefox Plugin Parameter EnsureCachedAttrParamArrays Remote Code Execution Attempt"
+    },
+    {
+        "suri_rule_id": "2011485",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_CLIENT RealPlayer FLV Parsing Integer Overflow Attempt"
+    },
+    {
+        "suri_rule_id": "2012041",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of String.fromCharCode % Encoding"
+    },
+    {
+        "suri_rule_id": "2012043",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of charCodeAt % Encoding"
+    },
+    {
+        "suri_rule_id": "2012044",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of charCodeAt %u UTF-8 Encoding"
+    },
+    {
+        "suri_rule_id": "2012042",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of String.fromCharCode %u UTF-8 Encoding"
+    },
+    {
+        "suri_rule_id": "2012052",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET WEB_CLIENT Winzip 15.0 WZFLDVW.OCX IconIndex Property Denial of Service"
+    },
+    {
+        "suri_rule_id": "2012053",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET WEB_CLIENT Winzip 15.0 WZFLDVW.OCX Text Property Denial of Service"
+    },
+    {
+        "suri_rule_id": "2012059",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of document.write % Encoding"
+    },
+    {
+        "suri_rule_id": "2012060",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_CLIENT Hex Obfuscation of document.write %u UTF-8 Encoding"
+    },
+    {
+        "suri_rule_id": "2012151",
+        "suri_rule_classtype": "attempted-dos",
+        "suri_rule_msg": "ET WEB_SERVER PHP Large Subnormal Double Precision Floating Point Number PHP DoS Inbound"
+    },
+    {
+        "suri_rule_id": "2017828",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Perl/Mambo.WebShell Spreader IRC Scanning Message"
+    },
+    {
+        "suri_rule_id": "2017829",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Perl/Mambo.WebShell Spreader IRC Open Ports Message"
+    },
+    {
+        "suri_rule_id": "2017830",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Perl/Mambo.WebShell Spreader IRC No Open Ports Message"
+    },
+    {
+        "suri_rule_id": "2017831",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Mambo.PerlBot Spreader IRC DDOS Attacking Message"
+    },
+    {
+        "suri_rule_id": "2017832",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Mambo.PerlBot Spreader IRC DDOS Attack Done Message"
+    },
+    {
+        "suri_rule_id": "2017833",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Mambo.PerlBot Spreader IRC DDOS PerlBot Version Message"
+    },
+    {
+        "suri_rule_id": "2017834",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Mambo.PerlBot Spreader IRC DDOS Mambo Scanning Message"
+    },
+    {
+        "suri_rule_id": "2017835",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WEB_SERVER Mambo.PerlBot Spreader IRC DDOS Exploited Message"
+    },
+    {
+        "suri_rule_id": "2020648",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET WEB_SERVER Possible CVE-2015-1427 Elastic Search Sandbox Escape Remote Code Execution Attempt"
+    },
+    {
+        "suri_rule_id": "2010602",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS ClarkConnect Linux proxy.php XSS Attempt"
+    },
+    {
+        "suri_rule_id": "2011697",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS JBoss JMX Console Beanshell Deployer .WAR File Upload and Deployment Cross Site Request Forgery Attempt"
+    },
+    {
+        "suri_rule_id": "2010945",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS Yahoo CD Player ActiveX Open Stack Overflow Attempt"
+    },
+    {
+        "suri_rule_id": "2011860",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS Oracle Fusion Middleware BPEL Console Cross Site Scripting"
+    },
+    {
+        "suri_rule_id": "2010719",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS e107 CMS backdoor access admin-access cookie and HTTP POST"
+    },
+    {
+        "suri_rule_id": "2025827",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS cmd powershell base64 encoded to Web Server 1"
+    },
+    {
+        "suri_rule_id": "2025828",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS cmd powershell base64 encoded to Web Server 2"
+    },
+    {
+        "suri_rule_id": "2025829",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS cmd powershell base64 encoded to Web Server 3"
+    },
+    {
+        "suri_rule_id": "2025732",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS ELF file magic encoded ASCII Inbound Web Servers Likely Command Execution 4"
+    },
+    {
+        "suri_rule_id": "2025832",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET WEB_SPECIFIC_APPS ELF file magic encoded Base64 UTF-8 Inbound Web Servers Likely Command Execution 5"
+    },
+    {
+        "suri_rule_id": "2102004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "GPL WORM Slammer Worm propagation attempt OUTBOUND"
+    },
+    {
+        "suri_rule_id": "2017404",
+        "suri_rule_classtype": "command-and-control",
+        "suri_rule_msg": "ET WORM W32/Njw0rm CnC Beacon"
+    },
+    {
+        "suri_rule_id": "2014402",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM W32/Rimecud wg.txt Checkin"
+    },
+    {
+        "suri_rule_id": "2012201",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM Possible Worm Sohanad.Z or Other Infection Request for setting.nql"
+    },
+    {
+        "suri_rule_id": "2018131",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM TheMoon.linksys.router 1"
+    },
+    {
+        "suri_rule_id": "2018132",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM TheMoon.linksys.router 2"
+    },
+    {
+        "suri_rule_id": "2018155",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM TheMoon.linksys.router 3"
+    },
+    {
+        "suri_rule_id": "2008020",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM Win32.Socks.s HTTP Post Checkin"
+    },
+    {
+        "suri_rule_id": "2012739",
+        "suri_rule_classtype": "trojan-activity",
+        "suri_rule_msg": "ET WORM Rimecud Worm checkin"
+    },
+    {
+        "suri_rule_id": "2527000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 1"
+    },
+    {
+        "suri_rule_id": "2527001",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 2"
+    },
+    {
+        "suri_rule_id": "2527002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 3"
+    },
+    {
+        "suri_rule_id": "2527003",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 4"
+    },
+    {
+        "suri_rule_id": "2527004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 5"
+    },
+    {
+        "suri_rule_id": "2527005",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 6"
+    },
+    {
+        "suri_rule_id": "2527006",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 7"
+    },
+    {
+        "suri_rule_id": "2527007",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 8"
+    },
+    {
+        "suri_rule_id": "2527008",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 9"
+    },
+    {
+        "suri_rule_id": "2527009",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 10"
+    },
+    {
+        "suri_rule_id": "2527010",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET Threatview.io High Confidence Cobalt Strike C2 IP group 11"
+    },
+    {
+        "suri_rule_id": "2522000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 1"
+    },
+    {
+        "suri_rule_id": "2522001",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 2"
+    },
+    {
+        "suri_rule_id": "2522002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 3"
+    },
+    {
+        "suri_rule_id": "2522003",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 4"
+    },
+    {
+        "suri_rule_id": "2522004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 5"
+    },
+    {
+        "suri_rule_id": "2520000",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Exit Node Traffic group 1"
+    },
+    {
+        "suri_rule_id": "2520001",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Exit Node Traffic group 2"
+    },
+    {
+        "suri_rule_id": "2520002",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Exit Node Traffic group 3"
+    },
+    {
+        "suri_rule_id": "2520003",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Exit Node Traffic group 4"
+    },
+    {
+        "suri_rule_id": "2520004",
+        "suri_rule_classtype": "misc-attack",
+        "suri_rule_msg": "ET TOR Known Tor Exit Node Traffic group 5"
+    }
+]

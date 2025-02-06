@@ -1,0 +1,52 @@
+Abuse Elevation Control Mechanism,T1548
+Access Token Manipulation,T1134
+Account Discovery,T1087
+Account Manipulation,T1098
+Active Scanning,T1595
+Application Window Discovery,T1010
+Command and Scripting Interpreter,T1059
+Create Account,T1136
+Create or Modify System Process,T1543
+Credentials from Password Stores,T1555
+Data from Information Repositories,T1213
+Data from Local System,T1005
+Data from Network Shared Drive,T1039
+Direct Volume Access,T1006
+Domain or Tenant Policy Modification,T1484
+Email Collection,T1114
+Encrypted Channel,T1573
+Exfiltration Over Alternative Protocol,T1048
+Exfiltration Over C2 Channel,T1041
+Exfiltration Over Other Network Medium,T1011
+Exploitation for Privilege Escalation,T1068
+Exploitation of Remote Services,T1210
+Fallback Channels,T1008
+File and Directory Discovery,T1083
+File and Directory Permissions Modification,T1222
+Gather Victim Host Information,T1592
+Gather Victim Identity Information,T1589
+Group Policy Discovery,T1615
+Lateral Tool Transfer,T1570
+Log Enumeration,T1654
+Network Service Discovery,T1046
+Network Share Discovery,T1135
+OS Credential Dumping,T1003
+Permission Groups Discovery,T1069
+Process Discovery,T1057
+Process Injection,T1055
+Query Registry,T1012
+Remote Services,T1021
+Remote System Discovery,T1018
+Scheduled Task/Job,T1053
+Scheduled Transfer,T1029
+Software Discovery,T1518
+System Information Discovery,T1082
+System Network Configuration Discovery,T1016
+System Network Connections Discovery,T1049
+System Owner/User Discovery,T1033
+System Service Discovery,T1007
+System Services,T1569
+Unsecured Credentials,T1552
+Use Alternate Authentication Material,T1550
+Valid Accounts,T1078
+Windows Management Instrumentation,T1047

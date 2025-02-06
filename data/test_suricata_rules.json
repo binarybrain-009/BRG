@@ -1,0 +1,162 @@
+[
+    {
+        "suri_rule_id": "2100498",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "GPL ATTACK_RESPONSE id check returned root"
+    },
+    {
+        "suri_rule_id": "2001219",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Potential SSH Scan"
+    },
+    {
+        "suri_rule_id": "2002910",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Potential VNC Scan 5800-5820"
+    },
+    {
+        "suri_rule_id": "2002911",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Potential VNC Scan 5900-5920"
+    },
+    {
+        "suri_rule_id": "2003068",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN Potential SSH Scan OUTBOUND"
+    },
+    {
+        "suri_rule_id": "2010937",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET SCAN Suspicious inbound to mySQL port 3306"
+    },
+    {
+        "suri_rule_id": "2010936",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET SCAN Suspicious inbound to Oracle SQL port 1521"
+    },
+    {
+        "suri_rule_id": "2010935",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET SCAN Suspicious inbound to MSSQL port 1433"
+    },
+    {
+        "suri_rule_id": "2018489",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET SCAN NMAP OS Detection Probe"
+    },
+    {
+        "suri_rule_id": "2011465",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET WEB_SERVER /bin/sh In URI Possible Shell Command Execution Attempt"
+    },
+    {
+        "suri_rule_id": "2009362",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET WEB_SERVER /system32/ in Uri - Possible Protected Directory Access Attempt"
+    },
+    {
+        "suri_rule_id": "2033355",
+        "suri_rule_classtype": "not-suspicious",
+        "suri_rule_msg": "ET INFO Windows Powershell User-Agent Usage"
+    },
+    {
+        "suri_rule_id": "2035480",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET HUNTING PE EXE Download over raw TCP"
+    },
+    {
+        "suri_rule_id": "2043996",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET INFO Suspected Impacket WMIExec Activity"
+    },
+    {
+        "suri_rule_id": "2044751",
+        "suri_rule_classtype": "successful-admin",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Interactive Reverse Shell Without TTY (Outbound)"
+    },
+    {
+        "suri_rule_id": "2049400",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET WEB_SERVER /etc/passwd Detected in URI"
+    },
+    {
+        "suri_rule_id": "2010920",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET WEB_SERVER Exploit Suspected PHP Injection Attack (cmd=)"
+    },
+    {
+        "suri_rule_id": "2002383",
+        "suri_rule_classtype": "unsuccessful-user",
+        "suri_rule_msg": "ET SCAN Potential FTP Brute-Force attempt response"
+    },
+    {
+        "suri_rule_id": "2009714",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt"
+    },
+    {
+        "suri_rule_id": "2101201",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "GPL WEB_SERVER 403 Forbidden"
+    },
+    {
+        "suri_rule_id": "2034172",
+        "suri_rule_classtype": "attempted-admin",
+        "suri_rule_msg": "ET EXPLOIT Apache HTTP Server - Path Traversal Attempt (CVE-2021-42013) M1"
+    },
+    {
+        "suri_rule_id": "2009358",
+        "suri_rule_classtype": "web-application-attack",
+        "suri_rule_msg": "ET SCAN Nmap Scripting Engine User-Agent Detected (Nmap Scripting Engine)"
+    },
+    {
+        "suri_rule_id": "2052797",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET WEB_SERVER Possible bash shell piped to dev tcp Inbound to WebServer M3"
+    },
+    {
+        "suri_rule_id": "2024897",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET USER_AGENTS Go HTTP Client User-Agent"
+    },
+    {
+        "suri_rule_id": "2001569",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "ET SCAN Behavioral Unusual Port 445 traffic Potential Scan or Infection"
+    },
+    {
+        "suri_rule_id": "2012709",
+        "suri_rule_classtype": "protocol-command-decode",
+        "suri_rule_msg": "ET POLICY MS Remote Desktop Administrator Login Request"
+    },
+    {
+        "suri_rule_id": "2025707",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET POLICY SMB2 NT Create AndX Request For a .bat File"
+    },
+    {
+        "suri_rule_id": "2025711",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET POLICY SMB2 NT Create AndX Request For a .sys File - Possible Lateral Movement"
+    },
+    {
+        "suri_rule_id": "2025701",
+        "suri_rule_classtype": "bad-unknown",
+        "suri_rule_msg": "ET POLICY SMB2 NT Create AndX Request For an Executable File"
+    },
+    {
+        "suri_rule_id": "2013028",
+        "suri_rule_classtype": "attempted-recon",
+        "suri_rule_msg": "ET POLICY curl User-Agent Outbound"
+    },
+    {
+        "suri_rule_id": "2027267",
+        "suri_rule_classtype": "attempted-user",
+        "suri_rule_msg": "ET ATTACK_RESPONSE Possible Lateral Movement - File Creation Request in Remote System32 Directory (T1105)"
+    },
+    {
+        "suri_rule_id": "2100366",
+        "suri_rule_classtype": "misc-activity",
+        "suri_rule_msg": "GPL ICMP_INFO PING *NIX"
+    }
+]
