@@ -2,6 +2,56 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+## 🚀 Overview- Suricata Rule Enhancer
+
+This Python script (`suricata_rule_enhancer.py`) streamlines the extraction and sampling of Suricata rules from `.rules` files, allowing you to parse them into a structured format (CSV) and optionally take random samples for further analysis or curation.
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Usage](#usage)
+    - [Extracting and Parsing Rules](#extracting-and-parsing-rules)
+    - [Random Sampling of CSV Data](#random-sampling-of-csv-data)
+5. [Command-Line Execution](#command-line-execution)
+6. [How It Works](#how-it-works)
+    - [Regex Parsing](#regex-parsing)
+    - [CSV Output Format](#csv-output-format)
+7. [Customization](#customization)
+8. [Contributing](#contributing)
+9. [License](#license)
+
+---
+
+## Features
+
+- **Rule Extraction**: Processes all `.rules` files in a specified directory, ignoring comment lines and automatically filtering out irrelevant lines (e.g., `$Id:`, `version`, `generated`).
+- **Regex-Based Parsing**: Parses each Suricata rule’s structure into columns (action, protocol, source/destination addresses and ports, and options).
+- **CSV Output**: Writes parsed rule data to a CSV file for easy consumption and analysis.
+- **Random Sampling**: Supports random sampling of the extracted rules for cases where you have a large dataset but only want to inspect or test with a subset.
+
+---
+
+## Prerequisites
+
+1. **Python 3.7+** installed.
+2. A **Suricata rules folder** containing `.rules` files to parse.
+
+---
+
+## Installation
+
+1. **Clone this repository or copy the script** (`suricata_rule_enhancer.py`) into your project directory.
+2. (Optional) Create and activate a Python virtual environment:
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+
+
+
+
+
+
 ## 🚀 Overview-Pinecone
 # Pinecone Vector Database Integration
 
