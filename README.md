@@ -2,6 +2,10 @@
 BRG-Work_daksh
 # 📄 README: Suricata IDS Rule Mapping Pipeline (Google Colab)
 
+# 🚀 Overview: mapped surciata rules
+It has the individual batches in a step of 1000 each and going on till 40104
+The all_mapped_results.json has the final 42,000 mappings all concatenated!
+
 # 🚀 Overview: SageMaker Deployment Proof of Concept
 
 This repository demonstrates a simple proof of concept (POC) for:
